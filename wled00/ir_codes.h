@@ -13,7 +13,7 @@
 #define IR6_VOLUME_DOWN  0xFF2FD0
 #define IR6_MUTE         0xFFAF50
 
-#define IR9_POWER       0xFF629D
+#define IR9_POWER       0xC0000C
 #define IR9_A           0xFF22DD
 #define IR9_B           0xFF02FD
 #define IR9_C           0xFFC23D
@@ -76,30 +76,30 @@
 #define IR24_CT_MEMORY     0xF7E817 // MEMORY
 
 // 24-key defs for old remote control
-#define IR24_OLD_BRIGHTER  0xFF906F // Brightness Up
-#define IR24_OLD_DARKER    0xFFB847 // Brightness Down
-#define IR24_OLD_OFF       0xFFF807 // Power OFF
-#define IR24_OLD_ON        0xFFB04F // Power On
-#define IR24_OLD_RED       0xFF9867 // RED
-#define IR24_OLD_REDDISH   0xFFE817 // Light RED
-#define IR24_OLD_ORANGE    0xFF02FD // Orange
-#define IR24_OLD_YELLOWISH 0xFF50AF // Light Orange
-#define IR24_OLD_YELLOW    0xFF38C7 // YELLOW
-#define IR24_OLD_GREEN     0xFFD827 // GREEN
-#define IR24_OLD_GREENISH  0xFF48B7 // Light GREEN
-#define IR24_OLD_TURQUOISE 0xFF32CD // TURQUOISE
-#define IR24_OLD_CYAN      0xFF7887 // CYAN
-#define IR24_OLD_AQUA      0xFF28D7 // AQUA
-#define IR24_OLD_BLUE      0xFF8877 // BLUE
-#define IR24_OLD_DEEPBLUE  0xFF6897 // Dark BLUE
-#define IR24_OLD_PURPLE    0xFF20DF // PURPLE
-#define IR24_OLD_MAGENTA   0xFF708F // MAGENTA
-#define IR24_OLD_PINK      0xFFF00F // PINK
-#define IR24_OLD_WHITE     0xFFA857 // WHITE
-#define IR24_OLD_FLASH     0xFFB24D // FLASH Mode
-#define IR24_OLD_STROBE    0xFF00FF // STROBE Mode
-#define IR24_OLD_FADE      0xFF58A7 // FADE Mode
-#define IR24_OLD_SMOOTH    0xFF30CF // SMOOTH Mode
+#define IR24_OLD_BRIGHTER 0xC00020 // Brightness Up
+#define IR24_OLD_DARKER   0xC00021 // Brightness Down
+#define IR24_OLD_OFF      0xC00084// Power OFF
+#define IR24_OLD_ON        0xC0000C // Power On
+#define IR24_OLD_RED      0xC0006D // RED
+#define IR24_OLD_REDDISH   0xC00003 // Light RED
+#define IR24_OLD_ORANGE    0xC00002 // Orange
+#define IR24_OLD_YELLOWISH  0xC00004 // Light Orange
+#define IR24_OLD_YELLOW     0xC0006F // YELLOW
+#define IR24_OLD_GREEN      0xC0006E // GREEN
+#define IR24_OLD_GREENISH   0xC00007 // Light GREEN
+#define IR24_OLD_TURQUOISE 0xC00008 // TURQUOISE
+#define IR24_OLD_CYAN       0xC00009 // CYAN
+#define IR24_OLD_AQUA       0xC00000 // AQUA
+#define IR24_OLD_BLUE       0xC00070 // BLUE
+#define IR24_OLD_DEEPBLUE  0xC00001 // Dark BLUE
+#define IR24_OLD_PURPLE    0xC00005 // PURPLE
+#define IR24_OLD_MAGENTA    0xC00006 // MAGENTA
+#define IR24_OLD_PINK      0xC0000D// PINK
+#define IR24_OLD_WHITE     0xC00083// WHITE
+#define IR24_OLD_FLASH     0xC00081 // FLASH Mode
+#define IR24_OLD_STROBE    0xC0007E // STROBE Mode
+#define IR24_OLD_FADE      0xC000F5 // FADE Mode
+#define IR24_OLD_SMOOTH     0xC000CB // SMOOTH Mode
 
 // 40-key defs for blue remote control
 #define IR40_BPLUS         0xFF3AC5  //
